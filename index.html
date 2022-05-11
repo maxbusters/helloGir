@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type="text/css" rel="stylesheet" media="all" href="hello/style.css" />
+        <link type="text/css" rel="stylesheet" media="all" href="lib/style.css" />
     </head>
     <body>
         <h1>Hello, World</h1>
-        <iframe src="hello/hello.html" width="200" height="200"></iframe>
+        <iframe src="lib/hello.html" width="200" height="200"></iframe>
+        <div id="like_button_container"></div>
+        <!-- Завантажимо React. -->
+        <!-- Примітка: перед розгортанням на продакшн, замініть "development.js" на "production.min.js". -->
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     </body>
 </html>
