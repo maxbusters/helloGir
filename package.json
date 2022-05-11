@@ -1,0 +1,26 @@
+{
+  "name": "hellogir",
+  "version": "1.0.0",
+  "description": "This is the Hello World example from the git tutorial.\r (changed in the original and pushed to shared https://github.com/maxbusters/helloGir/commits/master)",
+  "main": "like_button.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxbusters/helloGir.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxbusters/helloGir/issues"
+  },
+  "homepage": "https://github.com/maxbusters/helloGir#readme",
+  "dependencies": {
+    "terser": "^5.13.1"
+  }
+}
